@@ -17,7 +17,9 @@ npm start
       lastName
    }
 }
+```
 
+```javascript
 {  
    students {
       id
