@@ -1,5 +1,4 @@
-# graphql-practice
-GraphQL Practice
+# GraphQL Practice
 
 ## Installation and Setup
 
