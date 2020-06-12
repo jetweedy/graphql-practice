@@ -30,3 +30,11 @@ npm start
    }
 }
 ```
+
+## Sample GET urls:
+
+```
+http://localhost:4000/graphql?query={students{id firstName lastName}}
+
+http://localhost:4000/graphql?query={ studentById(id:%22S1001%22) { id firstName lastName } }
+```
