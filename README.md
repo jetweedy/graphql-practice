@@ -3,9 +3,11 @@ GraphQL Practice
 
 ## Installation and Setup
 
+```
 cd graphql-practice
 npm install
 npm start
+```
 
 ## Sample GraphiQL Code
 
