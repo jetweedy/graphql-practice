@@ -9,17 +9,9 @@ npm install
 npm start
 ```
 
-## Sample GraphiQL Code
+You can now make requests to get data from the database by including JSON-formatted markup of the kind of data you'd like back, as well as the filters you'd like to use. See a couple of samples below:
 
-```javascript
-{  
-   studentById(id:"S1001") {
-      id
-      firstName
-      lastName
-   }
-}
-```
+## Sample GraphiQL Code
 
 ```javascript
 {  
