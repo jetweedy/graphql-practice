@@ -6,13 +6,23 @@ const Query = {
       return "hello from  TutorialsPoint !!!"
    }
    ,
-   students:() => {
-	   return db.students.list()
+   skills:() => {
+      return db.skills.list()      
    }
    ,
-   studentById:(root,args,context,info) => {
-      //args will contain parameter passed in query
-      return db.students.get(args.id);
+   projects:() => {
+      return db.projects.list()
+   }
+   ,
+   projectsBySkill:(root, args, context, info) => {
+      var projects = db.projects.list();
+      var r = [];
+      for (var p=0;p<projects.length;p++) {
+         if (projects[p].skills.includes(args.skill)) {
+            r.push(projects[p]);
+         }
+      }
+      return r;
    }
 }
 module.exports = {Query}

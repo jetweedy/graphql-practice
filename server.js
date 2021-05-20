@@ -19,6 +19,7 @@ const  {graphiqlExpress,graphqlExpress} = require('apollo-server-express')
 app.use('/graphql',graphqlExpress({schema}))
 app.use('/graphiql',graphiqlExpress({endpointURL:'/graphql'}))
 
+
 app.listen(
    port, () => console.info(
       `Server started on port ${port}`

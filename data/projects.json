@@ -1,0 +1,16 @@
+[
+   {
+      "id": "nonnychat",
+      "name": "NonnyChat",
+      "url":"https://github.com/jetweedy/nonnychat",
+      "description":"Anonymous real-time chat that uses websockets to broadcast messages to browsers using the same 'room'.",
+      "skills":["node", "websockets"]
+   },
+   {
+      "id": "cv-cardgame",
+      "name": "CoronaVirus: The CardvGame",
+      "url":"https://github.com/jetweedy/cvGame",
+      "description":"A twist on games like Mafia and One Night Ultimate Werewolf, where players try to deceive each other to determine what's what and who's who.",
+      "skills": ["mongo", "node"]
+   }
+]

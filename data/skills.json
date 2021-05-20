@@ -1,0 +1,17 @@
+[
+   {
+      "id": "node",
+      "name": "Node.js",
+      "rating":4
+   },
+   {
+      "id": "mongo",
+      "name": "Mongo NoSQL Database",
+      "rating":3
+   },
+   {
+      "id": "websockets",
+      "name": "WebSockets",
+      "rating":3
+   }
+]
