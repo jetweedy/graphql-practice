@@ -31,3 +31,17 @@ query {
   }
 }
 ```
+
+## See it in action:
+
+https://skillcharts.herokuapp.com/graphiql
+
+```
+query {
+  projectsBySkill(skill:"node") {
+    name, description, skills {
+      id
+    }
+  }
+}
+```
