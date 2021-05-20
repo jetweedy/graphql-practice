@@ -47,5 +47,12 @@
       "url":"https://jonbtortoise.com/",
       "description":"No longer maintained, it still functions for demonstrating a project that used PHP, MySQL, Google Maps and some home-brewed JS/Ajax. Try searching for 'English' to get a few results.",
       "skills": ["javascript", "php", "googlemaps", "mysql", "htmlcss"]
+   },
+   {
+      "id": "vaxseeker",
+      "name": "Vaccine Appointment Scraper",
+      "url":"https://github.com/jetweedy/vaxapp",
+      "description":"Frustrated with the checkboxes and click-through required to discover that no appointments were available anyway, I wrote a scraper using Node and Puppeteer that would click through, look at the locations of appointments (if any), and then find the driving distance from my location using Google's API. If nearby appointments were available, it would use Twilio to text me a direct link to go snag one.",
+      "skills": ["node", "puppeteer", "twilio", "googlemaps"]
    }
 ]

@@ -27,3 +27,10 @@ div.project {
 	margin:0px;
 	padding:0px;
 }
+
+.skills {
+	font-weight:bold;
+	color:#555;
+	font-size:.8em;
+	text-align:right;
+}

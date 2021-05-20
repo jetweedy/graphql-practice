@@ -10,13 +10,20 @@ function drawProjects(projects) {
 		project.append($("<a>").attr("href", projects[p].url)
 			.attr("target", "_blank").html(projects[p].url));
 		project.append($("<p>").html(projects[p].description));
+		var skills = [];
+		for (var s=0;s<projects[p].skills.length;s++) {
+			skills.push(projects[p].skills[s].name);
+		}
+		var skillsdiv = $("<p>").addClass("skills").html(skills.join(" | "));
+		project.append(skillsdiv);
 		$("#projects").append(project);
 	}	
 }
 
 
 function queryProjectsForSkill(skill) {
-	$.get("/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url}}", (x) => {
+	var url = "/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url,skills{name}}}";
+	$.get(url, (x) => {
 		drawProjects(x.data.projectsBySkill);
 	});
 }
@@ -42,7 +49,7 @@ $(window).on("load", () => {
 	$("#skills").on("change", function() {
 		queryProjectsForSkill(this.value);
 	});
-	$.get("/graphql?query={projects,{name,description,url}}", (x) => {
+	$.get("/graphql?query={projects,{name,description,url,skills{name}}}", (x) => {
 		drawProjects(x.data.projects);
 	});
 
