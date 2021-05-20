@@ -52,5 +52,5 @@ $(window).on("load", () => {
 	$.get("/graphql?query={projects,{name,description,url,skills{name}}}", (x) => {
 		drawProjects(x.data.projects);
 	});
-
+	$("#skills").focus();
 })
