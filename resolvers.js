@@ -26,8 +26,16 @@ const Query = {
 
 //// Additional resolvers for Project type
 const Project = {
+   skillslist:(root, args, context, info) => {
+      var skills = db.skills.list().filter(skill => root.skills.includes(skill.id));
+//      console.log("skills", skills);
+      var skillsArray = skills.map(function (el) { return el.name; });
+      return skillsArray.join(" | ");
+   }
+   ,
    skills:(root, args, context, info) => {
-      return db.skills.list().filter(skill => root.skills.includes(skill.id));      
+      var skills = db.skills.list().filter(skill => root.skills.includes(skill.id));
+      return skills;
    }
 }
 module.exports = {Query,Project}

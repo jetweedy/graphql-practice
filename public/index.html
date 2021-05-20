@@ -1,8 +1,6 @@
 <html>
 	<head>
-		<!--
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		<script src="public/index.js"></script>
 		<link rel="stylesheet" type="text/css" href="public/index.css" />
@@ -17,6 +15,16 @@
 			Select a Skill: <select id="skills"></select>
 		</p>
 		<hr />
-		<div id="projects"></div>
+		<div id="projects">
+                <div
+                v-for="project in projects"
+                class="vue project">
+                    <strong>{{project.name}}</strong>
+                    <p>
+                    	{{project.description}}
+                    </p>
+                    <div class='skills'>{{project.skillslist}}</strong>
+                </div>			
+		</div>
 	</body>
 </html>

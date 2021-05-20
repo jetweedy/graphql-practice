@@ -2,7 +2,15 @@
 
 
 function drawProjects(projects) {
+
 	projects.sort(sortByAttribute("name"));
+
+	//// Using Vue.js
+	console.log(projects);
+	vProjects.projects = projects;
+
+/*
+	//// Using jQuery:
 	$("#projects").html("");
 	for (var p=0;p<projects.length;p++) {
 		var project = $("<div>").addClass("project");
@@ -18,6 +26,8 @@ function drawProjects(projects) {
 		project.append(skillsdiv);
 		$("#projects").append(project);
 	}	
+*/
+
 }
 
 
@@ -25,12 +35,12 @@ function queryProjectsForSkill(skill) {
 	skill = skill.trim();
 	console.log("["+skill+"]");
 	if (skill!="") {
-		var url = "/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url,skills{name}}}";
+		var url = "/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url,skillslist}}";
 		$.get(url, (x) => {
 			drawProjects(x.data.projectsBySkill);
 		});
 	} else {
-		$.get("/graphql?query={projects,{name,description,url,skills{name}}}", (x) => {
+		$.get("/graphql?query={projects,{name,description,url,skillslist}}", (x) => {
 			drawProjects(x.data.projects);
 		});		
 	}
@@ -50,7 +60,18 @@ function sortByAttribute(att, a, b) {
 	}
 }
 
+var vProjects = false;
+
 $(window).on("load", () => {
+
+    //// Initialize a Vue component for the chatlog
+    vProjects = new Vue({
+      el: '#projects',
+      data: {
+        projects:[]
+      }
+    })
+
 	var o = $("<option>").attr("value","").html("(Select a skill.)");
 	$("#skills").append(o);	
 	$.get("/graphql?query={skills,{id,name,rating}}", (x) => {
@@ -66,4 +87,6 @@ $(window).on("load", () => {
 	});
 	queryProjectsForSkill("");
 	$("#skills").focus();
+
+
 })

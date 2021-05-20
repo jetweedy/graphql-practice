@@ -22,4 +22,5 @@ type Project {
 	description:String
 	url:String
 	skills: [Skill]
+	skillslist: String
 }
