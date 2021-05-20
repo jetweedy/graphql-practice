@@ -8,15 +8,15 @@ type Query {
 }
 
 type Skill {
-	id:ID!
+	id:ID! @unique
 	name:String
 	rating:Int
 }
 
 type Project {
-	id:ID!
+	id:ID! @unique
 	name:String
 	description:String
 	url:String
-	skills: [Skill]
+	skills: [Skill] @relation (name: "ProjectSkill")
 }

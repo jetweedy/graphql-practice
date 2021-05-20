@@ -1,9 +1,9 @@
 const db = require('./db')
 const Query = {
-   test: () => 'Test Success, GraphQL server is up & running !!'
+   test: () => 'Test Successful'
    ,
    greeting:() => {
-      return "hello from  TutorialsPoint !!!"
+      return "Greetings."
    }
    ,
    skills:() => {
@@ -15,14 +15,7 @@ const Query = {
    }
    ,
    projectsBySkill:(root, args, context, info) => {
-      var projects = db.projects.list();
-      var r = [];
-      for (var p=0;p<projects.length;p++) {
-         if (projects[p].skills.includes(args.skill)) {
-            r.push(projects[p]);
-         }
-      }
-      return r;
+      return db.projects.list().filter(project => project.skills.includes(args.skill));
    }
 }
 module.exports = {Query}
