@@ -1,7 +1,7 @@
 const db = require('./db')
+
+//// Generic query resolvers
 const Query = {
-   test: () => 'Test Successful'
-   ,
    greeting:() => {
       return "Greetings."
    }
@@ -11,11 +11,25 @@ const Query = {
    }
    ,
    projects:() => {
-      return db.projects.list()
+      var projects = db.projects.list()
+      console.log(projects);
+      return projects;
+   }
+   ,
+   projectByID:(root, args, context, info) => {
+      console.log("args", args);
+      return db.projects.get(args.id);
    }
    ,
    projectsBySkill:(root, args, context, info) => {
       return db.projects.list().filter(project => project.skills.includes(args.skill));
    }
 }
-module.exports = {Query}
+
+//// Additional resolvers for Project type
+const Project = {
+   skills:(root, args, context, info) => {
+      return db.skills.list().filter(skill => root.skills.includes(skill.id));      
+   }
+}
+module.exports = {Query,Project}

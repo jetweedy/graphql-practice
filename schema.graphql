@@ -1,22 +1,25 @@
 
+
 type Query {
    test: String
    greeting:String
    skills:[Skill]
+   projectskills:[Skill]
    projects:[Project]
    projectsBySkill(skill:ID!):[Project]
+   projectByID(id:ID!):Project
 }
 
 type Skill {
-	id:ID! @unique
+	id:ID!
 	name:String
 	rating:Int
 }
 
 type Project {
-	id:ID! @unique
+	id:ID!
 	name:String
 	description:String
 	url:String
-	skills: [Skill] @relation (name: "ProjectSkill")
+	skills: [Skill]
 }
