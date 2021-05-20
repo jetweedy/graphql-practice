@@ -22,11 +22,27 @@ function drawProjects(projects) {
 
 
 function queryProjectsForSkill(skill) {
-	var url = "/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url,skills{name}}}";
-	$.get(url, (x) => {
-		drawProjects(x.data.projectsBySkill);
-	});
+	skill = skill.trim();
+	console.log("["+skill+"]");
+	if (skill!="") {
+		var url = "/graphql?query={projectsBySkill(skill:\""+skill+"\"),{name,description,url,skills{name}}}";
+		$.get(url, (x) => {
+			drawProjects(x.data.projectsBySkill);
+		});
+	} else {
+		$.get("/graphql?query={projects,{name,description,url,skills{name}}}", (x) => {
+			drawProjects(x.data.projects);
+		});		
+	}
 }
+
+var ratingLabels = {
+	1: "Familiar"
+	, 2: "Competent"
+	, 3: "Comfortable"
+	, 4: "Highly Skilled"
+	, 5: "Expert"
+};
 
 function sortByAttribute(att, a, b) {
 	return function(a, b) {
@@ -35,22 +51,19 @@ function sortByAttribute(att, a, b) {
 }
 
 $(window).on("load", () => {
-	console.log("test");
 	var o = $("<option>").attr("value","").html("(Select a skill.)");
 	$("#skills").append(o);	
-	$.get("/graphql?query={skills,{id,name}}", (x) => {
+	$.get("/graphql?query={skills,{id,name,rating}}", (x) => {
 		var skills = x.data.skills;
 		skills.sort(sortByAttribute("name"));
 		for (var s=0;s<skills.length;s++) {
-			var o = $("<option>").attr("value",skills[s].id).html(skills[s].name);
+			var o = $("<option>").attr("value",skills[s].id).html(skills[s].name + " (" + ratingLabels[skills[s].rating] + ")");
 			$("#skills").append(o);
 		}
 	});
 	$("#skills").on("change", function() {
 		queryProjectsForSkill(this.value);
 	});
-	$.get("/graphql?query={projects,{name,description,url,skills{name}}}", (x) => {
-		drawProjects(x.data.projects);
-	});
+	queryProjectsForSkill("");
 	$("#skills").focus();
 })
