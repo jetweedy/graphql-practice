@@ -3,15 +3,89 @@
       "id": "node",
       "name": "Node.js",
       "rating":4
-   },
+   }
+   ,
    {
       "id": "mongo",
       "name": "Mongo NoSQL Database",
       "rating":3
-   },
+   }
+   ,
    {
       "id": "websockets",
       "name": "WebSockets",
+      "rating":3
+   }
+   ,
+   {
+      "id": "php",
+      "name": "PHP Programming",
+      "rating":5
+   }
+   ,
+   {
+      "id": "mysql",
+      "name": "MySQL Database",
+      "rating":5
+   }
+   ,
+   {
+      "id": "python",
+      "name": "Python Programming",
+      "rating":4
+   }
+   ,
+   {
+      "id": "htmlcss",
+      "name": "HTML and CSS",
+      "rating":5
+   }
+   ,
+   {
+      "id": "graphql",
+      "name": "GraphQL",
+      "rating":2
+   }
+   ,
+   {
+      "id": "wordpress",
+      "name": "WordPress",
+      "rating":4
+   }
+   ,
+   {
+      "id": "vagrant",
+      "name": "Vagrant",
+      "rating":3
+   }
+   ,
+   {
+      "id": "jquery",
+      "name": "jQuery",
+      "rating":4
+   }
+   ,
+   {
+      "id": "linux",
+      "name": "Linux",
+      "rating":4
+   }
+   ,
+   {
+      "id": "googlemaps",
+      "name": "Google Maps API",
+      "rating":4
+   }
+   ,
+   {
+      "id": "twilio",
+      "name": "Twilio",
+      "rating":2
+   }
+   ,
+   {
+      "id": "vue",
+      "name": "Vue.js",
       "rating":3
    }
 ]

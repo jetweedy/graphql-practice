@@ -4,13 +4,48 @@
       "name": "NonnyChat",
       "url":"https://github.com/jetweedy/nonnychat",
       "description":"Anonymous real-time chat that uses websockets to broadcast messages to browsers using the same 'room'.",
-      "skills":["node", "websockets"]
+      "skills":["node", "websockets", "javascript", "vue", "htmlcss"]
    },
    {
       "id": "cv-cardgame",
-      "name": "CoronaVirus: The CardvGame",
+      "name": "CoronaVirus: The Card Game",
       "url":"https://github.com/jetweedy/cvGame",
       "description":"A twist on games like Mafia and One Night Ultimate Werewolf, where players try to deceive each other to determine what's what and who's who.",
-      "skills": ["mongo", "node"]
+      "skills": ["mongo", "node", "javascript", "jquery", "htmlcss"]
+   },
+   {
+      "id": "graphql-practice",
+      "name": "GraphQL Practice: A Project Skills Database",
+      "url":"https://github.com/jetweedy/graphql-practice",
+      "description":"he project leverages the built-in 'notarealdb' in Node instead of using a real database, and then refers to JSON files for Projects and Skills data. Ajax requests and DOM manipulations are performed using jQuery.",
+      "skills": ["graphql", "jquery", "javascript", "node"]
+   },
+   {
+      "id": "jsGame2D",
+      "name": "2D JavaScript Game",
+      "url":"https://github.com/jetweedy/jsGame2D",
+      "description":"A top-down 2D game demo that lets you pick one of 4 characters and move them around the map. There's not much to id, but it was a proof of concept using websockets, jquery and mongodb to build something that would update for other players in real time.",
+      "skills": ["javascript", "jquery", "mongodb", "node", "htmlcss"]
+   },
+   {
+      "id": "twtvagrant",
+      "name": "twtVagrant: Tools for Setting up a Quick and Dirty Dev Environment",
+      "url":"https://github.com/jetweedy/twtVagrant",
+      "description":"This is a set of tools for running virtual boxes with various programming tools installed, like Apache, PHP, Node, Python, MySQL and Mongo.",
+      "skills": ["vagrant", "linux"]
+   },
+   {
+      "id": "aheym",
+      "name": "The Archives of Historical and Ethnographic Yiddish Memories",
+      "url":"https://aheym.com/",
+      "description":"A WordPress website for The Archives of Historical and Ethnographic Yiddish Memories, a project based out of Indiana University Bloomington.",
+      "skills": ["wordpress", "php", "googlemaps", "htmlcss"]
+   },
+   {
+      "id": "jobtortoise",
+      "name": "JobTortoise: Academic Job Search Website",
+      "url":"https://jonbtortoise.com/",
+      "description":"No longer maintained, it still functions for demonstrating a project that used PHP, MySQL, Google Maps and some home-brewed JS/Ajax. Try searching for 'English' to get a few results.",
+      "skills": ["javascript", "php", "googlemaps", "mysql", "htmlcss"]
    }
 ]

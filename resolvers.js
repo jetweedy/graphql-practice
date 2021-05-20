@@ -12,12 +12,10 @@ const Query = {
    ,
    projects:() => {
       var projects = db.projects.list()
-      console.log(projects);
       return projects;
    }
    ,
    projectByID:(root, args, context, info) => {
-      console.log("args", args);
       return db.projects.get(args.id);
    }
    ,

@@ -1,5 +1,7 @@
 # GraphQL Practice
 
+I created a Projects and Skills API using GraphQL in order to learn a little bit about it. The project leverages the built-in 'notarealdb' in Node instead of using a real database, and then refers to JSON files for Projects and Skills data. Ajax requests and DOM manipulations are performed using jQuery.
+
 ## Installation and Setup
 
 ```
@@ -32,7 +34,7 @@ query {
 }
 ```
 
-## See it in action:
+## See the API in action:
 
 https://skillcharts.herokuapp.com/graphiql
 
@@ -45,3 +47,7 @@ query {
   }
 }
 ```
+
+## See the Website in action:
+
+https://skillcharts.herokuapp.com/

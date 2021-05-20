@@ -1,0 +1,29 @@
+
+body {
+	font-size:1.2em;
+	font-family:arial;	
+}
+
+button, input, select {
+	font-size:1.2em;
+	font-family:arial;
+}
+
+div.project {
+	margin:1em;
+	padding:1em;
+	border:1px solid #aaa;
+	background-color:#eef;
+}
+
+#projects a {
+	color:#666;
+}
+#projects a:hover {
+	color:#494;
+}
+
+#projects h4 {
+	margin:0px;
+	padding:0px;
+}
