@@ -19,7 +19,8 @@
                 <div
                 v-for="project in projects"
                 class="vue project">
-                    <strong>{{project.name}}</strong>
+                    <strong>{{project.name}}</strong> <br />
+                    <a v-bind:href="project.url" target="_blank">{{project.url}}</a>                    
                     <p>
                     	{{project.description}}
                     </p>
