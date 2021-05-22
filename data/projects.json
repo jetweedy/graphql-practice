@@ -55,4 +55,12 @@
       "description":"Frustrated with the checkboxes and click-through required to discover that no appointments were available anyway, I wrote a scraper using Node and Puppeteer that would click through, look at the locations of appointments (if any), and then find the driving distance from my location using Google's API. If nearby appointments were available, it would use Twilio to text me a direct link to go snag one.",
       "skills": ["node", "puppeteer", "twilio", "googlemaps"]
    }
+   ,
+   {
+      "id":"rednode", 
+      "name":"Using Redis with Node", 
+      "url":"https://github.com/jetweedy/rednode", 
+      "description":"This thing is stupidly simplistic, used purely to screw around with Redis and Node. I might turn it into something useful at some point, but for now it just demonstrates setting and getting from Redis through a Node application.", 
+      "skills":["node", "redis"]
+   }
 ]

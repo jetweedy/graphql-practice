@@ -88,4 +88,10 @@
       "name": "Vue.js",
       "rating":3
    }
+   ,
+   {
+      "id":"redis",
+      "name": "Redis", 
+      "rating": 2
+   }
 ]
