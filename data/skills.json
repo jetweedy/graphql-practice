@@ -100,4 +100,16 @@
       "name":"FHIR",
       "rating":3
    }
+   ,
+   {
+      "id":"cordova",
+      "name":"Cordova",
+      "rating":3
+   }
+   ,
+   {
+      "id":"javascript", 
+      "name":"JavaScript",
+      "rating":5
+   }
 ]
