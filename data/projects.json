@@ -63,4 +63,20 @@
       "description":"This thing is stupidly simplistic, used purely to screw around with Redis and Node. I might turn it into something useful at some point, but for now it just demonstrates setting and getting from Redis through a Node application.", 
       "skills":["node", "redis"]
    }
+   ,
+   {
+      "id":"fhirapp",
+      "name":"FHIR Mobile App Demo",
+      "url":"https://github.com/jetweedy/fhirapp",
+      "description":"A sample app written using JavaScript and compiled with Cordova that demonstrates working with FHIR (Fast Health Interoperability Resources) using Python.",
+      "skills":["fhir", "cordova", "javascript"]
+   }
+   ,
+   {
+      "id":"pyfhir",
+      "name":"Python and FHIR",
+      "url":"https://github.com/jetweedy/fhirworkshop",
+      "description":"A sample app demonstrating working with FHIR (Fast Health Interoperability Resources) using Python.",
+      "skills":["fhir", "python"]
+   }
 ]

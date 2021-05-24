@@ -94,4 +94,10 @@
       "name": "Redis", 
       "rating": 2
    }
+   ,
+   {
+      "id":"fhir",
+      "name":"FHIR",
+      "rating":3
+   }
 ]
