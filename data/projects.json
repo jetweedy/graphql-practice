@@ -79,4 +79,20 @@
       "description":"A sample app demonstrating working with FHIR (Fast Health Interoperability Resources) using Python.",
       "skills":["fhir", "python"]
    }
+   ,
+   {
+      "id":"truewindtech",
+      "name":"True Wind Technology",
+      "url":"https://truewindtechnology.com",
+      "description":"A reasonably elaborate WordPress website with several custom plugins.",
+      "skills":["php", "wordpress", "javascript"]
+   }
+   ,
+   {
+      "id":"pyPpt2PdfPng",
+      "name":"Python PPT to PDF to PNG Conversion",
+      "url":"https://github.com/jetweedy/python-ppt2pdf2jpg",
+      "description":"A script written to facilitate the fairly redundant process of converting students Powerpoint presentations to PDFs to post on a website. The first page of each can also be converted to a PNG for east posting of a clickable thumbnail.",
+      "skills":["python"]
+   }
 ]
