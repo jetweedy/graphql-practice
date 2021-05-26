@@ -95,4 +95,13 @@
       "description":"A script written to facilitate the fairly redundant process of converting students Powerpoint presentations to PDFs to post on a website. The first page of each can also be converted to a PNG for east posting of a clickable thumbnail.",
       "skills":["python"]
    }
+   ,
+   {   
+      "id":"node2pdf2zip",
+      "name":"Node Puppeteer HTML to PDF to Zip",
+      "url":"https://github.com/jetweedy/node-pdf-zip",
+      "description":"Converting a matrix of hospitals and indicators to PDF and zipping up for download. This is basically a demo of the PDF capabilities of Puppeteer and the zipping capabilities of another library called 'zip-dir'. Designed as a step along the way for a more robust project, but was a nice stand-alone script to share in a repo.",
+      "skills":["node"]
+
+   }
 ]
