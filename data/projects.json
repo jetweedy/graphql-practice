@@ -104,4 +104,22 @@
       "skills":["node"]
 
    }
+   ,
+   {   
+      "id":"rti-challenge",
+      "name":"RTI Interview Challenge",
+      "url":"https://github.com/jetweedy/frontend-dev-exercises",
+      "description":"A quick charting app developed as a demo for an interview challenge using Node, Vue and HighCharts.",
+      "skills":["node", "vue", "javascript", "highcharts"]
+
+   }
+   ,
+   {   
+      "id":"webpack-practice",
+      "name":"Messing Around with Webpack",
+      "url":"https://github.com/jetweedy/webpack-demo",
+      "description":"Getting more familiar with Webpack using their on-site resources.",
+      "skills":["webpack", "javascript", "css", "node"]
+
+   }
 ]
