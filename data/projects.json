@@ -25,7 +25,7 @@
       "name": "2D JavaScript Game",
       "url":"https://github.com/jetweedy/jsGame2D",
       "description":"A top-down 2D game demo that lets you pick one of 4 characters and move them around the map. There's not much to id, but it was a proof of concept using websockets, jquery and mongodb to build something that would update for other players in real time.",
-      "skills": ["javascript", "jquery", "mongodb", "node", "htmlcss"]
+      "skills": ["javascript", "jquery", "mongodb", "node", "htmlcss", "websockets"]
    },
    {
       "id": "twtvagrant",
