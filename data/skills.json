@@ -118,4 +118,16 @@
       "name":"Webpack",
       "rating":3
    }
+   ,
+   {
+      "id":"webpack",
+      "name":"Webpack",
+      "rating":3
+   }
+   ,
+   {
+      "id":"vuex",
+      "name":"Vuex",
+      "rating":2
+   }
 ]

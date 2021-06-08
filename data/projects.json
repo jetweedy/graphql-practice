@@ -120,6 +120,13 @@
       "url":"https://github.com/jetweedy/webpack-demo",
       "description":"Getting more familiar with Webpack using their on-site resources.",
       "skills":["webpack", "javascript", "css", "node"]
-
+   }
+   ,
+   {
+      "id":"vuex-etc",
+      "name":"Messing with Vuex",
+      "url":"https://github.com/jetweedy/vuex-etc",
+      "description":"Just tinkering with Vuex to get the hang of letting multiple components interact with a common store.",
+      "skills":["vue","vuex"]
    }
 ]
