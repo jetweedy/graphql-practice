@@ -44,7 +44,7 @@
    {
       "id": "jobtortoise",
       "name": "JobTortoise: Academic Job Search Website",
-      "url":"https://jobbtortoise.com/",
+      "url":"https://jobtortoise.com/",
       "description":"No longer maintained, it still functions for demonstrating a project that used PHP, MySQL, Google Maps and some home-brewed JS/Ajax. Try searching for 'English' to get a few results.",
       "skills": ["javascript", "php", "googlemaps", "mysql", "htmlcss"]
    },
