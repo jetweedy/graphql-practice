@@ -17,7 +17,7 @@
       "id": "graphql-practice",
       "name": "GraphQL Practice: A Project Skills Database",
       "url":"https://github.com/jetweedy/graphql-practice",
-      "description":"he project leverages the built-in 'notarealdb' in Node instead of using a real database, and then refers to JSON files for Projects and Skills data. Ajax requests and DOM manipulations are performed using jQuery.",
+      "description":"The project leverages the built-in 'notarealdb' in Node instead of using a real database, and then refers to JSON files for Projects and Skills data. Ajax requests and DOM manipulations are performed using jQuery.",
       "skills": ["graphql", "jquery", "javascript", "node", "vue"]
    },
    {
