@@ -77,7 +77,7 @@
       "name":"Python and FHIR",
       "url":"https://github.com/jetweedy/fhirworkshop",
       "description":"A sample app demonstrating working with FHIR (Fast Health Interoperability Resources) using Python.",
-      "skills":["fhir", "python"]
+      "skills":["fhir", "python", "flask"]
    }
    ,
    {
