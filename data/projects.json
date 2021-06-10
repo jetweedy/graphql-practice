@@ -96,25 +96,23 @@
       "skills":["python"]
    }
    ,
-   {   
+   {
       "id":"node2pdf2zip",
       "name":"Node Puppeteer HTML to PDF to Zip",
       "url":"https://github.com/jetweedy/node-pdf-zip",
       "description":"Converting a matrix of hospitals and indicators to PDF and zipping up for download. This is basically a demo of the PDF capabilities of Puppeteer and the zipping capabilities of another library called 'zip-dir'. Designed as a step along the way for a more robust project, but was a nice stand-alone script to share in a repo.",
       "skills":["node"]
-
    }
    ,
-   {   
+   {
       "id":"rti-challenge",
       "name":"RTI Interview Challenge",
       "url":"https://github.com/jetweedy/frontend-dev-exercises",
       "description":"A quick charting app developed as a demo for an interview challenge using Node, Vue and HighCharts.",
-      "skills":["node", "vue", "javascript", "highcharts"]
-
+      "skills":["node", "vue", "javascript", "highcharts", "webpack"]
    }
    ,
-   {   
+   {
       "id":"webpack-practice",
       "name":"Messing Around with Webpack",
       "url":"https://github.com/jetweedy/webpack-demo",
