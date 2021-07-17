@@ -127,4 +127,12 @@
       "description":"Just tinkering with Vuex to get the hang of letting multiple components interact with a common store.",
       "skills":["vue","vuex"]
    }
+   ,
+   {
+      "id":"spanish-liquids-by-gender",
+      "name":"Spanish Liquids by Gender",
+      "url":"https://github.com/jetweedy/spanish-liquids-by-gender",
+      "description":"Helping a professor in Hispanic Linguistics at NC State University generate charts of five ways of pronouncing /l/ and /r/ in Spanish, grouped in a side-by-side bar chart by Gender.",
+      "skills":["r"]
+   }
 ]

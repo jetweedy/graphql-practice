@@ -136,4 +136,10 @@
       "name":"Vuex",
       "rating":2
    }
+   ,
+   {
+      "id":"r",
+      "name":"R",
+      "rating":2
+   }
 ]
