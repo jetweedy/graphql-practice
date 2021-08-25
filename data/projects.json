@@ -1,5 +1,12 @@
 [
    {
+      "id": "bpm-share",
+      "name": "BPM Co-monitoring",
+      "url":"https://github.com/jetweedy/bpm-share",
+      "description":"Patients can go into a unique url-coded room with their doctor and then share their BPM in real time while checking their own pulse. It's a websockets-based proof in concept for other kinds of telehealth that might benefit from that kind of sharing.",
+      "skills":["node", "websockets", "vue"]
+   },
+   {
       "id": "nonnychat",
       "name": "NonnyChat",
       "url":"https://github.com/jetweedy/nonnychat",
