@@ -1,5 +1,11 @@
 [
    {
+      "id": "puppeteer",
+      "name": "Puppeteer",
+      "rating":4
+   }
+   ,
+   {
       "id": "node",
       "name": "Node.js",
       "rating":4

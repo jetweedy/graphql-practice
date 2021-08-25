@@ -101,7 +101,7 @@
       "name":"Node Puppeteer HTML to PDF to Zip",
       "url":"https://github.com/jetweedy/node-pdf-zip",
       "description":"Converting a matrix of hospitals and indicators to PDF and zipping up for download. This is basically a demo of the PDF capabilities of Puppeteer and the zipping capabilities of another library called 'zip-dir'. Designed as a step along the way for a more robust project, but was a nice stand-alone script to share in a repo.",
-      "skills":["node"]
+      "skills":["node", "puppeteer"]
    }
    ,
    {
@@ -134,5 +134,13 @@
       "url":"https://github.com/jetweedy/spanish-liquids-by-gender",
       "description":"Helping a professor in Hispanic Linguistics at NC State University generate charts of five ways of pronouncing /l/ and /r/ in Spanish, grouped in a side-by-side bar chart by Gender.",
       "skills":["r"]
+   }
+   ,
+   {
+      "id":"misc-scrapers",
+      "name":"Various Scrapers",
+      "url":"https://github.com/jetweedy/scrapers",
+      "description":"Various scrapers and tools written in Python or Node and Puppeteer",
+      "skills":["python", "node", "puppeteer"]
    }
 ]
