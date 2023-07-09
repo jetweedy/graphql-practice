@@ -1,5 +1,23 @@
 [
    {
+      "id":"aws",
+      "name":"AWS",
+      "rating":3
+   }
+   ,
+   {
+      "id":"elasticbeanstalk",
+      "name":"Elastic Beanstalk",
+      "rating":3
+   }
+   ,
+   {
+      "id":"dynamodb",
+      "name":"DynamoDB",
+      "rating":3
+   }
+   ,
+   {
       "id": "puppeteer",
       "name": "Puppeteer",
       "rating":4
@@ -38,13 +56,13 @@
    {
       "id": "python",
       "name": "Python Programming",
-      "rating":4
+      "rating":5
    }
    ,
    {
       "id":"flask",
       "name":"Flask",
-      "rating":2
+      "rating":4
    }
    ,
    {
