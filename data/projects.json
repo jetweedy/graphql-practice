@@ -4,7 +4,7 @@
       "name": "ReadActive",
       "url":"https://github.com/jetweedy/readactive",
       "description":"Users can maintain a collection of interactive stories and manage the pages in each, the choices you can make at the end of each page, and what pages those choices lead to. When complete, they can share links with others to read these stories.",
-      "skills":["node", "websockets", "vue"]
+      "skills":["jquery", "aws", "elasticbeanstalk", "dynamodb", "python", "flask"]
    },
    {
       "id": "bpm-share",
