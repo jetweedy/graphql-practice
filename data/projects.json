@@ -87,11 +87,11 @@
    }
    ,
    {
-      "id":"pyfhir",
-      "name":"Python and FHIR",
-      "url":"https://github.com/jetweedy/fhirworkshop",
-      "description":"A sample app demonstrating working with FHIR (Fast Health Interoperability Resources) using Python.",
-      "skills":["fhir", "python", "flask"]
+      "id":"smartonfhir",
+      "name":"Smart on FHIR",
+      "url":"https://github.com/jetweedy/smart_on_fhir",
+      "description":"A sample app demonstrating working with FHIR (Fast Health Interoperability Resources) using a mock EHR Launcher.",
+      "skills":["fhir", "javascript"]
    }
    ,
    {
