@@ -6,18 +6,6 @@
    }
    ,
    {
-      "id":"elasticbeanstalk",
-      "name":"Elastic Beanstalk",
-      "rating":3
-   }
-   ,
-   {
-      "id":"dynamodb",
-      "name":"DynamoDB",
-      "rating":3
-   }
-   ,
-   {
       "id": "puppeteer",
       "name": "Puppeteer",
       "rating":4
