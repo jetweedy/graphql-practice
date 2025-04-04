@@ -59,7 +59,7 @@
       "name": "The Archives of Historical and Ethnographic Yiddish Memories",
       "url":"https://aheym.com/",
       "description":"A WordPress website for The Archives of Historical and Ethnographic Yiddish Memories, a project based out of Indiana University Bloomington.",
-      "skills": ["wordpress", "php", "googlemaps", "htmlcss"]
+      "skills": ["wordpress", "php", "leaflet", "htmlcss"]
    },
    {
       "id": "jobtortoise",
