@@ -5,7 +5,7 @@
       "url":"https://github.com/jetweedy/flask-startup",
       "description":"I develop a variety of web apps in Python over the past few years. The linked sample is just a quick Flask start-up tutorial that I provide to students in a JavaScript/FHIR app development course that I teach, so that they can spin up a server-side environment to play with when developing applications, if so desired.",
       "skills":["python", "flask"]
-   }
+   },
    {
       "id": "aws",
       "name": "Amazon Web Services",
