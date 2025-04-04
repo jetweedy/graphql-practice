@@ -1,10 +1,9 @@
 [
    {
-      "id": "readactive",
-      "name": "ReadActive",
-      "url":"http://readactive.us-east-2.elasticbeanstalk.com/",
-      "description":"Users can maintain a collection of interactive stories and manage the pages in each, the choices you can make at the end of each page, and what pages those choices lead to. When complete, they can share links with others to read these stories.",
-      "skills":["jquery", "aws", "elasticbeanstalk", "dynamodb", "python", "flask"]
+      "id": "aws",
+      "name": "Amazon Web Services",
+      "description":"I have some experience spinning up a variety of AWS resources, including MySQL-like instances of Aurora, Python Flask Apps on Ubuntu on EC2, etc.",
+      "skills":["aws"]
    },
    {
       "id": "bpm-share",
