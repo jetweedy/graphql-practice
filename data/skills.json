@@ -90,6 +90,12 @@
    }
    ,
    {
+      "id": "leaflet",
+      "name": "Leaflet Maps",
+      "rating":4
+   }
+   ,
+   {
       "id": "googlemaps",
       "name": "Google Maps API",
       "rating":4
