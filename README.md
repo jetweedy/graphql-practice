@@ -33,21 +33,3 @@ query {
   }
 }
 ```
-
-## See the API in action:
-
-https://skillcharts.herokuapp.com/graphiql
-
-```
-query {
-  projectsBySkill(skill:"node") {
-    name, description, skills {
-      id
-    }
-  }
-}
-```
-
-## See the Website in action:
-
-https://skillcharts.herokuapp.com/
