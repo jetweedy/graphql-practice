@@ -20,7 +20,7 @@ http://localhost:4000/graphql?query={projectsBySkill(skill:"websockets"),{name}}
 http://localhost:4000/graphql?query={projectsBySkill(skill:"node"),{name}}
 http://localhost:4000/graphql?query={projectByID(id:%22nonnychat%22),{name,description,skills{name,rating}}}
 ```
-## Using the GraphiQL Interface:
+## Using the GraphQL Interface:
 
 http://localhost:4000/graphiql
 
